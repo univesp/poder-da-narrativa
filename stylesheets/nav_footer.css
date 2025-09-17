@@ -1,0 +1,70 @@
+.logo {
+
+  margin-left: 11%;
+  position: absolute;
+  
+}
+
+@media (max-width: 575px){
+  .titulo img{
+    content: url("../assets/partes/Versão Mobile/Título/titulo.jpg");
+  }
+
+  nav ul{
+    margin-left: 80% !important;
+}
+nav i {
+  font-size: 1rem !important;
+}
+.nav-item.dropdown{
+  width: 50px !important;
+  height: 30px !important;
+}
+
+.nav-link.dropdown-toggle {
+  padding: 0;
+  padding-left: 15px;
+}
+
+.logo{
+  width: 30% !important;
+}
+
+}
+.titulo img {
+  height: 10%;
+}
+
+nav .logo img {
+  background-color: #FFA84F;
+
+}
+
+nav .dropdown-menu{
+  background-color: #FFA84F;
+  color: #ffffff;
+}
+
+nav i{
+  color: #000000;
+}
+
+nav ul{
+  margin-left: 90%;
+  background-color: #FFA84F;
+  position: absolute;
+}
+
+.nav-link.dropdown-toggle {
+  background-color: #FFA84F;
+}
+
+footer {
+  background-color: #000000;
+  font-family: 'Inter';
+}
+
+footer,
+footer .sharing i {
+  color: #ffffff;
+}
